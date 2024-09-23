@@ -20,7 +20,9 @@ Esta desarrollada con Kotlin en Jetpack Compose, usando Android Studio, en él t
 ## Desarrollo.
 
 App - Jetpack Compose, Kotlin.
+
 Web - Javascript, HTML, CSS, Bootstrap.
+
 Backend - Python, LM Studio, Flask.
 
 Este proyecto ha sido creado por Diego Valdés y Josep Lloret [-Infinexum Team-].
