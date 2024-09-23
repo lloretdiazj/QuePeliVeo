@@ -1,4 +1,4 @@
-# QuePeliVeo
+# QuePeliVeo - Android - Recomendador de películas
 
 ## Descripción.
 
