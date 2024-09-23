@@ -2,7 +2,7 @@
 
 ## Descripción.
 
-QuePeliVeo es una aplicación con utilidad para recomendar películas a partir de una descripción y el número de películas que queremos recibir. Además si nos te ha gustado la recomendación puedes compartirla con alquien para verla, también tiene sinopsis, año, géneros, poster y enlace de IMDB.
+QuePeliVeo es una aplicación con utilidad para recomendar películas a partir de una descripción y el número de películas que queremos recibir. Además si te ha gustado la recomendación puedes compartirla con alquien para verla, también tiene sinopsis, año, géneros, poster y enlace de IMDB.
 
 ## Tecnología.
 
