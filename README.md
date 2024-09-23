@@ -14,4 +14,4 @@ App - Jetpack Compose, Kotlin.
 Web - Javascript, HTML, CSS, Bootstrap.
 Backend - Python, LM Studio, Flask.
 
-Este proyecto ha sido creado por Diego Valdés y Josep Lloret [Infinexum Team].
+Este proyecto ha sido creado por Diego Valdés y Josep Lloret [-Infinexum Team-].
