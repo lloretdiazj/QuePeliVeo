@@ -10,7 +10,7 @@ El usuario inicia la App, y se encuentra con la pantalla inicio el cual consta d
 
 Al mostrar la lista se colapsará la imagen pasando a las barra superior, permitiéndonos tener más visión de pantalla en la lista.
 
-Cada película consta ed una tarjeta, cada uno de ellas nos mostrará título, año, puntuación, géneros y botón de enlace a IMDB. Toda esta información se extrae de TheMovieDataBase [TMDB].
+Cada película consta de una tarjeta, cada uno de ellas nos mostrará título, año, puntuación, géneros y botón de enlace a IMDB. Toda esta información se extrae de TheMovieDataBase [TMDB].
 Al pulsar el botón de IMDB intentará abrir la aplicación IMDB oficial si se encuentra instalada en el sistema, sino abrirá el navegador con la página web oficial de IMDB.
 
 Podemos pulsar sobre cada tarjeta, de forma que al pulsar sobre una nos abrirá un diálogo con titulo, año, puntuación, géneros, sinopsis y botón de compartir. Este botón permite enviar un mensaje por la aplicación que mejor considere el usuario.
@@ -23,9 +23,6 @@ Esta desarrollada con Kotlin en Jetpack Compose, usando Android Studio, en él t
 
 ## Capturas.
 
-<!-- ![Alt text](./img/1.jpg?raw=true "Captura 1")
-![Alt text](./img/2.jpg?raw=true "Captura 2")
-![Alt text](./img/3.jpg?raw=true "Captura 3") -->
 | ![Alt text](./img/1.jpg?raw=true "Captura 1") | ![Alt text](./img/2.jpg?raw=true "Captura 2") | ![Alt text](./img/3.jpg?raw=true "Captura 3") |
 |:---------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|
 
