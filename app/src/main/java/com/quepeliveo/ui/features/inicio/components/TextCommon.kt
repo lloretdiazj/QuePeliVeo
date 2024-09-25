@@ -11,9 +11,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.List
-import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
@@ -103,7 +100,6 @@ fun TextoGenerosPuntuacion(
     tamanyoLetra: Int = 12,
 ) {
     Column(
-//        modifier = Modifier.height(100.dp)
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
@@ -124,14 +120,10 @@ fun TextoGenerosPuntuacion(
                 fontSize = tamanyoLetra.sp,
                 textAlign = TextAlign.Start,
                 fontWeight = FontWeight.Bold,
-//            overflow = TextOverflow.Ellipsis,
                 modifier = Modifier.fillMaxWidth(),
-//            lineHeight = 20.sp,
-//            maxLines = 5
             )
         }
 
-//        Spacer(modifier = Modifier.height(5.dp))
         Row(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Start,
@@ -140,7 +132,6 @@ fun TextoGenerosPuntuacion(
             Image(
                 painter = painterResource(id = com.quepeliveo.R.drawable.aplicacion),
                 contentDescription = "Menu",
-//                tint = Color.Black,
                 modifier = Modifier.height(15.dp)
             )
 

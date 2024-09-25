@@ -79,12 +79,8 @@ fun Formulario(
                 painter = painterResource(id = R.drawable.qpv),
                 contentDescription = "Logo",
                 modifier = Modifier
-//                    .padding(0.dp)
-//                    .size(200.dp)
                     .width(300.dp)
-//                    .height(50.dp)
                     .clip(RectangleShape)
-//                    .border(1.dp, Color.Black),
             )
 
             Text(
@@ -111,7 +107,6 @@ fun Formulario(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
                 .fillMaxWidth()
-//                .padding(5.dp)
         ) {
 
             OutlinedTextFieldConError(
@@ -123,7 +118,6 @@ fun Formulario(
                 validacionState = validacionPrompt,
                 modifier = Modifier
                     .fillMaxWidth()
-//                    .width(250.dp)
                     .background(
                         Color.Transparent
                     )
@@ -143,7 +137,6 @@ fun Formulario(
                     .padding(5.dp)
             ){
                 IconButton(
-//                    modifier = Modifier.width(50.dp),
                     onClick = {
                         inicioEvent(InicioEvent.OnClickMenos(consultaUiState.numero))
                     }
@@ -177,23 +170,6 @@ fun Formulario(
                     )
                 }
             }
-
-//            Spacer(modifier = Modifier.width(5.dp))
-
-
-
-//            OutlinedTextFieldConErrorNumerico(
-//                textoState = consultaUiState.numero,
-//                onValueChange = { inicioEvent(InicioEvent.OnNumeroPeliculasChanged(it)) },
-//                textoPista = "Nº.",
-//                validacionState = validacionNumeroPelicula,
-//                modifier = Modifier
-////                    .width(100.dp)
-//                    .background(
-//                        Color.Transparent
-//                    )
-//
-//            )
         }
 
         Spacer(modifier = Modifier.height(10.dp))

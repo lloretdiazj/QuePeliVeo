@@ -37,13 +37,8 @@ import com.quepeliveo.utilities.abreIMDB
 
 @Composable
 fun TarjetaPeliculaCommon(
-//    poster: String,
-//    titulo: String,
-//    anyo: String,
-//    sinopsis: String,
     pelicula: PeliculaUiState,
     darkTheme: Boolean = isSystemInDarkTheme(),
-//    enlaceIMDB: String,
     posicionLista: Int,
     onInicioEvent: (InicioEvent) -> Unit
 ) {
@@ -93,10 +88,6 @@ fun TarjetaPeliculaCommon(
                 color = colorLetras,
                 generos = pelicula.generos,
             )
-//            TextoSinopsis(
-//                texto = pelicula.sinopsis,
-//                color = colorLetras,
-//            )
 
             Spacer(modifier = Modifier.padding(5.dp))
             val context = LocalContext.current

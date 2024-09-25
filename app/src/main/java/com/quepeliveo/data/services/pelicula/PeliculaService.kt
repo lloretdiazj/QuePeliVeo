@@ -10,7 +10,7 @@ interface PeliculaService {
 
     @GET("recomendador")
     @Headers("Accept: application/json", "Content-Type: application/json")
-    suspend fun get(@Query("prompt") prompt: String = "De disney Clásicas", @Query("numero") numero: String = "6"): Response<List<PeliculaApi>>
+    suspend fun get(@Query("prompt") prompt: String, @Query("numero") numero: String): Response<List<PeliculaApi>>
 
 
 

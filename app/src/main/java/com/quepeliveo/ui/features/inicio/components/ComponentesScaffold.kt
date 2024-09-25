@@ -35,7 +35,6 @@ fun BarraSuperior(
     modifier = Modifier
         .fillMaxWidth()
         .background(Color.Transparent),
-//        .height(50.dp)
     colors = TopAppBarColors(
         Color.Transparent,
         Color.Transparent,

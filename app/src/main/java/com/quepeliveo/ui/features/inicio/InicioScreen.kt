@@ -150,18 +150,6 @@ fun Inicio(
                             onInicioEvent = onInicioEvent
                         )
                     }
-
-//                    if (listaPeliculas.isEmpty()) {
-//                        Spacer(modifier = Modifier.height(40.dp))
-//                        Text(
-//                            text = "*Ten en cuenta que las recomendaciones son proporcionadas por una IA y que la calidad de las mismas dependerá de la información que nos proporciones.",
-//                            color = Color.Black,
-//                            fontSize = 12.sp,
-//                            fontFamily = amazonEmber,
-//                            textAlign = TextAlign.Center,
-//
-//                            )
-//                    }
                 }
                 if (verDialogoPelicula) {
                     DialogoPelicula(

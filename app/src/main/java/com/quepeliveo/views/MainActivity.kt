@@ -26,6 +26,8 @@ class MainActivity : ComponentActivity() {
 
                 val inicioViewModel by viewModels<InicioViewModel>()
 
+                //Cuando hayan más pantallas se deberá agregar la navegación.
+
                 Inicio(
                     listaPeliculas = inicioViewModel.listaPeliculas,
                     peliculaSeleccionada = inicioViewModel.peliculaSeleccionada,

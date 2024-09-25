@@ -136,21 +136,6 @@ class InicioViewModel @Inject constructor(
 
                 verDialogoPelicula = true
             }
-//
-//            is InicioEvent.OnNumeroPeliculasChanged -> {
-//
-//                consulta = consulta.copy(numero = event.numero)
-//
-//                validacionConsultaUiState = validacionConsultaUiState.copy(
-//                    validacionNumeroPeliculas = validadorConsulta.validacionNumeroPeliculas.valida(
-//                        event.numero
-//                    )
-//                )
-//
-//                botonState = !validacionConsultaUiState.validacionNumeroPeliculas.hayError &&
-//                        !validacionConsultaUiState.validacionPrompt.hayError
-//
-//            }
 
             is InicioEvent.OnPromptChanged -> {
                 consulta = consulta.copy(prompt = event.prompt)
@@ -203,7 +188,6 @@ class InicioViewModel @Inject constructor(
             is InicioEvent.OnClickInfo -> {
                 verDialogoInformacion = true
             }
-
 
         }
     }

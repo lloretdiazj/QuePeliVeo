@@ -36,8 +36,7 @@ class AppModule {
         okHttpClient: OkHttpClient
     ) : Retrofit = Retrofit.Builder()
         .client(okHttpClient)
-//        .baseUrl("http://192.168.1.116:5000/")
-        .baseUrl("http://192.168.0.127:5000/")
+        .baseUrl("") // Insertar IP dónde esté backend
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 

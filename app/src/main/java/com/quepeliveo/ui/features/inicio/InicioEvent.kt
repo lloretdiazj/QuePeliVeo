@@ -3,7 +3,6 @@ package com.quepeliveo.ui.features.inicio
 sealed interface InicioEvent {
 
     data class OnPromptChanged(val prompt: String) : InicioEvent
-//    data class OnNumeroPeliculasChanged(val numero: String) : InicioEvent
     data class OnClickMas(val numeroPeliculas: String) : InicioEvent
     data class OnClickMenos(val numeroPeliculas: String) : InicioEvent
     data class OnClickPelicula(val posicionPelicula: Int) : InicioEvent
